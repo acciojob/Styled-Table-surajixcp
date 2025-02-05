@@ -2,14 +2,91 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>COVID-19 Statistics</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 20px;
+        }
+        table {
+            width: 80%;
+            margin: auto;
+            border-collapse: collapse;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+        thead {
+            background-color: #4CAF50;
+            color: white;
+        }
+        th, td {
+            padding: 12px;
+            text-align: center;
+            border: 1px solid #ddd;
+        }
+        tbody tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+        tbody tr:hover {
+            background-color: #ddd;
+        }
+        th {
+            font-weight: bold;
+        }
+    </style>
 </head>
 <body>
-    <!-- add table here -->
 
-        
+    <h2 style="text-align: center;">COVID-19 Statistics</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Country</th>
+                <th>Total Cases</th>
+                <th>Total Deaths</th>
+                <th>Total Recovered</th>
+                <th>Active Cases</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>USA</td>
+                <td>100,000,000</td>
+                <td>1,200,000</td>
+                <td>98,000,000</td>
+                <td>800,000</td>
+            </tr>
+            <tr>
+                <td>India</td>
+                <td>44,000,000</td>
+                <td>530,000</td>
+                <td>43,000,000</td>
+                <td>470,000</td>
+            </tr>
+            <tr>
+                <td>Brazil</td>
+                <td>34,000,000</td>
+                <td>700,000</td>
+                <td>33,000,000</td>
+                <td>300,000</td>
+            </tr>
+            <tr>
+                <td>Russia</td>
+                <td>22,000,000</td>
+                <td>400,000</td>
+                <td>21,000,000</td>
+                <td>600,000</td>
+            </tr>
+            <tr>
+                <td>UK</td>
+                <td>24,000,000</td>
+                <td>220,000</td>
+                <td>23,000,000</td>
+                <td>780,000</td>
+            </tr>
+        </tbody>
+    </table>
+
 </body>
 </html>
